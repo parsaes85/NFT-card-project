@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <style>
+    .end {
+      font-size: 11px;
+      text-align: center; 
+      margin-top: 1%;
+      margin-left: auto;
+      margin-right: auto;
+      color: rgba(255, 255, 255, 0.6);
+    }
+    body{
+      background-color:hsl(217, 54%, 11%);
+      overflow: hidden;
+    }
+    main{
+      background-color: hsl(216, 50%, 16%);
+      padding: 15px;
+      width: 258px;
+      margin: auto;
+      margin-top: 2%;
+      border-radius: 10px;
+    }
+    #main-img{
+      width: 245px;
+      height: 265px;
+      border-radius: 5px;
+      position: relative;
+      left: 8px;
+    }
+    
+    div > h3{
+      color: white;
+      font-size: 18px;
+      font-family: 'Outfit', sans-serif;
+    }
+    div > h3:hover{
+      color:hsl(178, 100%, 50%);
+    }
+     div > p{
+       color: rgba(255, 255, 255, 0.6);
+       
+    }
+    
+    #texts{
+      margin-left: 7px;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 100;
+    }
+
+    .ETH{
+      float: left;
+      color:hsl(178, 100%, 50%);
+    }
+
+    .time{
+      float: right;
+      color: hsl(215, 51%, 70%);
+    }
+    #stufs{
+      padding-bottom: 35px;
+      border-bottom: 1px solid hsla(215, 32%, 27%, 0.7);
+      padding-top: 5px;
+      font-size: 14px;
+    }
+    .ETH-img{
+      width: 9px;
+      padding-right: 2px;
+    }
+    .clock-img{
+      width: 13px;
+    }
+    .avatar-img{
+      width: 23px;
+      padding-right: 7px;
+    }
+
+    .footer{
+      color: rgba(255, 255, 255, 0.6);
+    }
+    .footer > span{
+      color: white;
+    }
+    .footer > span:hover{
+      color:hsl(178, 100%, 50%);
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+
+    <header>
+      <div >
+        <img id="main-img" src="images/image-equilibrium.jpg" alt="Equilibrium">
+      </div>
+    </header>
+
+    <div id="texts">
+
+  <div>
+    <h3>Equilibrium #3429</h3>
+  </div>
+
+  <div>
+    <p>Our Equilibrium collection promotes<br> balance and calm.</p>
+  </div>
+
+  <div id="stufs">
+    <div class="ETH">
+      <img class="ETH-img" src="images/icon-ethereum.png"> 0.041 ETH
+    </div>
+
+    <div class="time">
+      <img class="clock-img" src="images/icon-clock.png"> 3 days left
+    </div>
+  </div>
+  <br>
+  <div class="footer">
+    <img class="avatar-img" src="images/image-avatar.png"> Creation of <span>Jules Wyvern</span>
+  </div>
+
+</div>
+
+</main>
+
+<footer>
+
+  <div class="end">
+    Coded by Parsa.
+  </div>
+
+</footer>
+
+</body>
+</html>
